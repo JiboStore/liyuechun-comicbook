@@ -30,7 +30,7 @@ const SHOW_ANDROID_DRAWER = true;
 /**
  * iOS端是否以抽屉样式展示
  */
-// const SHOW_IOS_DRAWER = true;
-const SHOW_IOS_DRAWER = false;
+const SHOW_IOS_DRAWER = true;
+//const SHOW_IOS_DRAWER = false;
 
 export const IS_TAB_STYLE = Platform.OS === 'ios' && !SHOW_IOS_DRAWER || Platform.OS !== 'ios' && ! SHOW_ANDROID_DRAWER;
